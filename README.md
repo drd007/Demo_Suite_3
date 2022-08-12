@@ -23,3 +23,11 @@ For Mac user:
 2. Open terminal -> cd the project location
 3. Run command -> mvn test verify
 
+
+Solution:
+
+I have keep this Test Framework structure easy:
+1. Feature directory: List all test cases and scenarios
+2. StepDefinition directory: Contains all methods to assert or verify the UAT
+
+Result will be generated and save under Target folder
